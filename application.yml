@@ -1,1 +1,13 @@
-usuario-nombre: Carlos
+spring:
+  profiles: rol1
+usuario-nombre: Carlos1
+
+---
+spring:
+  profiles: rol2
+usuario-nombre: Carlos2
+
+---
+spring:
+  profiles: rol3
+usuario-nombre: Carlos3
